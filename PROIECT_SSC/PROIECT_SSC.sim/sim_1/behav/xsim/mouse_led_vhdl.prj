@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PROIECT_SSC.srcs/sources_1/imports/new/TX FSM MODULE.vhd" \
+"../../../../PROIECT_SSC.srcs/sources_1/imports/new/RX FSM MODULE.vhd" \
+"../../../../PROIECT_SSC.srcs/sources_1/imports/new/RX TX MODULE.vhd" \
+"../../../../PROIECT_SSC.srcs/sources_1/imports/new/FINITE STATE MACHINE MOUSE MODULE.vhd" \
+"../../../../PROIECT_SSC.srcs/sources_1/imports/new/MASTER MODULE PS2 MOUSE.vhd" \
+
+# Do not sort compile order
+nosort

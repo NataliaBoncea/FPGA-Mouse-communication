@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 10 10:56:18 2024
+# Process ID: 3848
+# Current directory: E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1
+# Command line: vivado.exe -log mouse_to_vga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mouse_to_vga.tcl
+# Log file: E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1/mouse_to_vga.vds
+# Journal file: E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mouse_to_vga.tcl -notrace

@@ -1,0 +1,532 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 10 10:56:18 2024
+# Process ID: 3848
+# Current directory: E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1
+# Command line: vivado.exe -log mouse_to_vga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mouse_to_vga.tcl
+# Log file: E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1/mouse_to_vga.vds
+# Journal file: E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mouse_to_vga.tcl -notrace
+Command: synth_design -top mouse_to_vga -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7840 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 838.562 ; gain = 177.723
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mouse_to_vga' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/Mouse to VGA.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'mouse' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/FINITE STATE MACHINE MOUSE MODULE.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'ps2_rxtx' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/RX TX MODULE.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'ps2_tx' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/TX FSM MODULE.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2_tx' (1#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/TX FSM MODULE.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'ps2_rx' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/RX FSM MODULE.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2_rx' (2#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/RX FSM MODULE.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2_rxtx' (3#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/RX TX MODULE.vhd:16]
+WARNING: [Synth 8-6014] Unused sequential element x_overflow_reg_reg was removed.  [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/FINITE STATE MACHINE MOUSE MODULE.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_overflow_reg_reg was removed.  [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/FINITE STATE MACHINE MOUSE MODULE.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'mouse' (4#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/FINITE STATE MACHINE MOUSE MODULE.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'rgb_vga' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/RGB VGA Sync.vhd:47]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1/.Xil/Vivado-3848-DESKTOP-S943SG1/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'C' of component 'clk_wiz_0' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/RGB VGA Sync.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1/.Xil/Vivado-3848-DESKTOP-S943SG1/realtime/clk_wiz_0_stub.vhdl:14]
+INFO: [Synth 8-638] synthesizing module 'vga_sync' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/VGA Synchronization Circuit.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'cursor' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/Mouse cursor draw.vhd:44]
+WARNING: [Synth 8-614] signal 'RGB_in' is read in the process but is not in the sensitivity list [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/Mouse cursor draw.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'cursor' (5#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/Mouse cursor draw.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'vga_sync' (6#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/VGA Synchronization Circuit.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'rgb_vga' (7#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/RGB VGA Sync.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'counter_enable' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/DIVIZOR_DE_FRECVENTA.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'counter_enable' (8#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/imports/new/DIVIZOR_DE_FRECVENTA.vhd:42]
+WARNING: [Synth 8-614] signal 'en' is read in the process but is not in the sensitivity list [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/Mouse to VGA.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'mouse_to_vga' (9#1) [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/Mouse to VGA.vhd:46]
+WARNING: [Synth 8-3331] design cursor has unconnected port clk
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 903.125 ; gain = 242.285
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 903.125 ; gain = 242.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 903.125 ; gain = 242.285
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'vga_gen/C'
+Finished Parsing XDC File [e:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'vga_gen/C'
+Parsing XDC File [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:17]
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'sa'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'sa'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:52]
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:57]
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:58]
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'keys[2]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:113]
+WARNING: [Vivado 12-584] No ports matched 'keys[2]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:114]
+WARNING: [Vivado 12-584] No ports matched 'keys[1]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:115]
+WARNING: [Vivado 12-584] No ports matched 'keys[1]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:116]
+WARNING: [Vivado 12-584] No ports matched 'keys[0]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:117]
+WARNING: [Vivado 12-584] No ports matched 'keys[0]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:118]
+WARNING: [Vivado 12-584] No ports matched 'keys[3]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:119]
+WARNING: [Vivado 12-584] No ports matched 'keys[3]'. [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc:120]
+Finished Parsing XDC File [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/mouse_to_vga_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/constrs_1/imports/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mouse_to_vga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mouse_to_vga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1030.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1030.699 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1030.699 ; gain = 369.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1030.699 ; gain = 369.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  {e:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  {e:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property DONT_TOUCH = true for vga_gen/C. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1030.699 ; gain = 369.859
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ps2_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ps2_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'mouse'
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/VGA Synchronization Circuit.vhd:59]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/VGA Synchronization Circuit.vhd:58]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                     rts |                              001 |                              001
+                   start |                              010 |                              010
+                    data |                              011 |                              011
+                    stop |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'ps2_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                     dps |                              010 |                               01
+                    load |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'ps2_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   init1 |                              000 |                              000
+                   init2 |                              001 |                              001
+                   init3 |                              010 |                              010
+                   pack1 |                              011 |                              011
+                   pack2 |                              100 |                              100
+                   pack3 |                              101 |                              101
+                    done |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'mouse'
+WARNING: [Synth 8-327] inferring latch for variable 'x_reg_reg' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/Mouse to VGA.vhd:87]
+WARNING: [Synth 8-327] inferring latch for variable 'y_reg_reg' [E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.srcs/sources_1/new/Mouse to VGA.vhd:88]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1030.699 ; gain = 369.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 4     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 5     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   5 Input     13 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   5 Input      9 Bit        Muxes := 1     
+	   7 Input      9 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   5 Input      1 Bit        Muxes := 10    
+	   7 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module mouse_to_vga 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module ps2_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     13 Bit        Muxes := 1     
+	   5 Input      9 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 10    
+Module ps2_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module mouse 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   7 Input      9 Bit        Muxes := 4     
+	   7 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 4     
+Module cursor 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+Module vga_sync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 4     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mouse_gen/ps2_rxtx_unit/ps2_tx_unit/b_reg_reg[8] )
+INFO: [Synth 8-3886] merging instance 'mouse_gen/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[7]' (FDC) to 'mouse_gen/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'mouse_gen/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[6]' (FDC) to 'mouse_gen/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'mouse_gen/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[5]' (FDC) to 'mouse_gen/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mouse_gen/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[4]' (FDC) to 'mouse_gen/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'mouse_gen/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[3]' (FDC) to 'mouse_gen/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'mouse_gen/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[2]' (FDC) to 'mouse_gen/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'mouse_gen/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[1]' (FDC) to 'mouse_gen/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/b_reg[0]' (FDR) to 'vga_gen/C1/b_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/b_reg[1]' (FDR) to 'vga_gen/C1/b_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/b_reg[2]' (FDR) to 'vga_gen/C1/b_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/g_reg[0]' (FDR) to 'vga_gen/C1/g_reg[1]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/g_reg[1]' (FDR) to 'vga_gen/C1/g_reg[2]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/g_reg[2]' (FDR) to 'vga_gen/C1/g_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/r_reg[0]' (FDR) to 'vga_gen/C1/r_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/r_reg[1]' (FDR) to 'vga_gen/C1/r_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga_gen/C1/r_reg[2]' (FDR) to 'vga_gen/C1/r_reg[3]'
+INFO: [Synth 8-3886] merging instance 'mouse_gen/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[0]' (FDC) to 'mouse_gen/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_7/counter_en/one_second_counter_reg[27]' (FDC) to 'i_7/counter_en/one_second_counter_reg[26]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_7/\counter_en/one_second_counter_reg[26] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1030.699 ; gain = 369.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------+------------+---------------+----------------+
+|Module Name  | RTL Object | Depth x Width | Implemented As | 
++-------------+------------+---------------+----------------+
+|cursor       | p_0_out    | 256x2         | LUT            | 
+|mouse_to_vga | p_0_out    | 256x2         | LUT            | 
++-------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'vga_gen/C/clk_out1' to pin 'vga_gen/C/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1030.699 ; gain = 369.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1030.699 ; gain = 369.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1031.113 ; gain = 370.273
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.934 ; gain = 376.094
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.934 ; gain = 376.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.934 ; gain = 376.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.934 ; gain = 376.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.934 ; gain = 376.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.934 ; gain = 376.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |clk_wiz_0_bbox_0 |     1|
+|2     |CARRY4           |    31|
+|3     |LUT1             |    15|
+|4     |LUT2             |    71|
+|5     |LUT3             |    37|
+|6     |LUT4             |    50|
+|7     |LUT5             |    50|
+|8     |LUT6             |    58|
+|9     |FDCE             |   105|
+|10    |FDPE             |     1|
+|11    |FDRE             |    49|
+|12    |LD               |    18|
+|13    |IBUF             |     1|
+|14    |IOBUF            |     2|
+|15    |OBUF             |    14|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+----------------------+---------------+------+
+|      |Instance              |Module         |Cells |
++------+----------------------+---------------+------+
+|1     |top                   |               |   503|
+|2     |  counter_en          |counter_enable |    72|
+|3     |  mouse_gen           |mouse          |   165|
+|4     |    ps2_rxtx_unit     |ps2_rxtx       |   140|
+|5     |      ps2_rx_unit     |ps2_rx         |    45|
+|6     |      ps2_tx_unit     |ps2_tx         |    95|
+|7     |  vga_gen             |rgb_vga        |   228|
+|8     |    C1                |vga_sync       |   227|
+|9     |      cursor_draw_gen |cursor         |    39|
++------+----------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.934 ; gain = 376.094
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 1036.934 ; gain = 248.520
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.934 ; gain = 376.094
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1049.309 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  LD => LDCE: 18 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+63 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1049.309 ; gain = 626.309
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1049.309 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/FACULTATE/AN 3/SEMESTRUL 1/SSC/PROIECT/PROIECT_SSC/PROIECT_SSC.runs/synth_1/mouse_to_vga.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mouse_to_vga_utilization_synth.rpt -pb mouse_to_vga_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 10 10:57:00 2024...
